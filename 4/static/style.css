@@ -1,0 +1,118 @@
+/* Reset some default styles */
+body, h1, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background image for the body */
+.body1 {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    
+    background-image: url('https://img.freepik.com/free-photo/portrait-smiling-medical-worker-girl-doctor-white-coat-with-stethoscope-pointing-fingers-left_1258-124585.jpg?w=1060&t=st=1695894853~exp=1695895453~hmac=fcf4d50cff9e43c77358c4cc6a4b519a6f6d89609fa8848a6ce0c1e6b7201a78');
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-size: cover; /* Cover the entire element */
+    background-position: center; /* Center the image */
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; /* Ensure the body covers the entire viewport height */
+    display: flex;
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+}
+
+/* Style the page container */
+.page-container {
+    text-align: center;
+}
+
+/* Style the container */
+.container {
+    max-width: 500px;
+    height:20vh;
+    margin: 0 auto;
+    padding: 30px;
+    background-color:#fff;
+    
+    border-radius: 10px;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the main title */
+h1 {
+    color: #cf1515e2;
+    margin-bottom: 20px;
+}
+
+
+
+/* Style the form container */
+.form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the file input container */
+.file-input-container {
+    flex: 1;
+    margin-right: 10px;
+}
+
+/* Style the file input */
+input[type="file"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the button container */
+.button-container {
+    flex: 1;
+}
+
+/* Style the upload button */
+button {
+    background-color: #007BFF;
+    color:#fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Style the result section */
+.result {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Add an opaque white background over the image */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Style the result title */
+.result h2 {
+    color: #333;
+}
+
+/* Style the result text */
+.result p {
+    color: #555;
+}
+
+.image-editing {
+    height: 40px;
+    width: 40px;
+}
+
+.d {
+    color:black;
+}
+
+.image-editing{
+    border-radius: 20px;
+}
